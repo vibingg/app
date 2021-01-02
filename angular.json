@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "vibing"
+  "defaultProject": "vibing",
+  "cli": {
+    "analytics": "26443ee3-dfb3-4cc6-9335-344a5550440c"
+  }
 }
