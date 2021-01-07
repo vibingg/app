@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router'
+import { Router } from '@angular/router' //ii
 
 @Component({
   selector: 'app-name-input-page',
@@ -8,7 +8,7 @@ import { Router } from '@angular/router'
 })
 export class NameInputPageComponent {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) { } //ii
 
   firstname= '';
   submitButtonAppear = false;
@@ -16,7 +16,7 @@ export class NameInputPageComponent {
 
   onSubmit() {
     this.nameSubmitted = true;
-    this.router.navigate(['/name-friend-input']);
+    this.router.navigate(['/name-friend-input']); //ii
     console.log(this.firstname);
   }
 
