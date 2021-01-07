@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'loading', component: LoadingPageComponent },
   { path: 'name-input', component: NameInputPageComponent },
   { path: 'name-friend-input', component: NameFriendInputPageComponent },
-  { path: 'alice-vibe', component: AliceVibePageComponent }
+  { path: 'alice-vibe', component: AliceVibePageComponent },
 ];
 
 @NgModule({
