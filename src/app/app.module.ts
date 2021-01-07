@@ -10,6 +10,7 @@ import { LoadingPageComponent } from './loading-page/loading-page.component';
 import { NameInputPageComponent } from './name-input-page/name-input-page.component';
 import { FormsModule } from '@angular/forms';
 import { NameFriendInputPageComponent } from './name-friend-input-page/name-friend-input-page.component';
+import { AliceVibePageComponent } from './alice-vibe-page/alice-vibe-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NameFriendInputPageComponent } from './name-friend-input-page/name-frie
     LandingComponent,
     LoadingPageComponent,
     NameInputPageComponent,
-    NameFriendInputPageComponent
+    NameFriendInputPageComponent,
+    AliceVibePageComponent
   ],
   imports: [
     BrowserModule,
