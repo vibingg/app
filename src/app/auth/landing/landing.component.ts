@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-landing',
@@ -9,7 +10,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 
 export class LandingComponent implements OnInit {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   ngOnInit(): void {
 
@@ -49,4 +50,7 @@ export class LandingComponent implements OnInit {
     return this.http.get('https://accounts.spotify.com/authorize?' + { params });
   }
 
+  spotifyLogin() {
+    this.router.navigate(['/name-input']);
+  }
 }
