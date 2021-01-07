@@ -14,6 +14,6 @@ export class LandingComponent implements OnInit {
   }
 
   spotifyLogin() {
-    this.router.navigate(['/loading']);
+    this.router.navigate(['/name-input']);
   }
 }

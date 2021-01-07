@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./name-friend-input-page.component.css']
 })
 export class NameFriendInputPageComponent {
+
   secondname= '';
   submitButtonAppear = false;
   nameSubmitted = false;
