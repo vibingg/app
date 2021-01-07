@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AliceVibePageComponent } from './alice-vibe-page.component';
+import { ResultPageComponent } from './result-page.component';
 
-describe('AliceVibePageComponent', () => {
-  let component: AliceVibePageComponent;
-  let fixture: ComponentFixture<AliceVibePageComponent>;
+describe('ResultPageComponent', () => {
+  let component: ResultPageComponent;
+  let fixture: ComponentFixture<ResultPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AliceVibePageComponent ]
+      declarations: [ ResultPageComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AliceVibePageComponent);
+    fixture = TestBed.createComponent(ResultPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

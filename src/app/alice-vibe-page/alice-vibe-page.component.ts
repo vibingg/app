@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-alice-vibe-page',
@@ -9,9 +10,12 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 export class AliceVibePageComponent implements OnInit {
   faSearch = faSearch;
 
-  constructor() { }
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
   }
 
+  onContinue() {
+    this.router.navigate(['/bob-vibe']);
+  }
 }
