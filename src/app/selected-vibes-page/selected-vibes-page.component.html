@@ -1,6 +1,38 @@
-<mat-grid-list class="grid" cols="2" rowHeight="100px">
-  <mat-grid-tile><app-selected-track></app-selected-track></mat-grid-tile>
-  <mat-grid-tile><app-selected-track></app-selected-track></mat-grid-tile>
-  <mat-grid-tile><app-selected-track></app-selected-track></mat-grid-tile>
-  <mat-grid-tile><app-selected-track></app-selected-track></mat-grid-tile>
-</mat-grid-list>
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="title">
+      Selected Vibes
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm centralise">
+      <app-selected-track></app-selected-track>
+    </div>
+    <div class="col-sm centralise">
+      <app-selected-track></app-selected-track>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-sm centralise">
+      <app-selected-track></app-selected-track>
+    </div>
+    <div class="col-sm centralise">
+      <app-selected-track></app-selected-track>
+    </div>
+  </div>
+  <div class="row btn-row">
+    <div class="col centralise btn-div">
+      <button mat-raised-button
+        color="primary"
+        class="submit-btn"
+      >Select Again</button>
+    </div>
+    <div class="col centralise btn-div">
+      <button mat-raised-button
+        color="primary"
+        class="submit-btn"
+      >Continue</button>
+    </div>
+  </div>
+</div>

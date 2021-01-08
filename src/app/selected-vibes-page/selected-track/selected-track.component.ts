@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Track } from 'src/app/track.model';
 
 @Component({
   selector: 'app-selected-track',
