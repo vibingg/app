@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
+import { NameService } from '../services/name.service';
 
 @Component({
   selector: 'app-name-friend-input-page',
@@ -8,16 +9,14 @@ import { Router } from '@angular/router';
 })
 export class NameFriendInputPageComponent {
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private nameService: NameService) { }
 
   secondname= '';
   submitButtonAppear = false;
-  nameSubmitted = false;
 
   onSubmit() {
-    this.nameSubmitted = true;
+    this.nameService.setSecondName(this.secondname);
     this.router.navigate(['/alice-vibe']);
-    console.log(this.secondname);
   }
 
   change(event: any) {
@@ -27,5 +26,10 @@ export class NameFriendInputPageComponent {
     if (this.secondname == '') {
       this.submitButtonAppear = false;
     }
+  }
+
+  @ViewChild("nameinput") myInputField: ElementRef;
+  ngAfterViewInit() {
+    this.myInputField.nativeElement.focus();
   }
 }

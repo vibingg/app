@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 import { Router } from '@angular/router' //ii
+import { NameService } from '../services/name.service';
 
 @Component({
   selector: 'app-name-input-page',
@@ -8,16 +9,14 @@ import { Router } from '@angular/router' //ii
 })
 export class NameInputPageComponent {
 
-  constructor(private router: Router) { } //ii
+  constructor(private router: Router, private nameService: NameService) { } //ii
 
   firstname= '';
   submitButtonAppear = false;
-  nameSubmitted = false;
 
   onSubmit() {
-    this.nameSubmitted = true;
+    this.nameService.setFirstName(this.firstname);
     this.router.navigate(['/name-friend-input']); //ii
-    console.log(this.firstname);
   }
 
   change(event: any) {
@@ -27,6 +26,11 @@ export class NameInputPageComponent {
     if (this.firstname == '') {
       this.submitButtonAppear = false;
     }
+  }
+
+  @ViewChild("nameinput") myInputField: ElementRef;
+  ngAfterViewInit() {
+    this.myInputField.nativeElement.focus();
   }
 
 }

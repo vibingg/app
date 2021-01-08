@@ -3,8 +3,8 @@
 
   <div class="form-container">
     <form (submit)="onSubmit()">
-      <mat-form-field class="input" [style.width.px]=350 required>
-          <input matInput [(ngModel)]="secondname" (ngModelChange)="change($event)" name="first"
+      <mat-form-field class="input" [style.width.px]=500 required appearance="standard">
+          <input #nameinput matInput [(ngModel)]="secondname" (ngModelChange)="change($event)" name="first"
           placeholder="Your name here...">
       </mat-form-field>
     </form>
