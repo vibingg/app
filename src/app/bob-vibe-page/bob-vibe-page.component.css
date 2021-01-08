@@ -70,5 +70,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding-top: 3%; */
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
 }

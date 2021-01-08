@@ -1,11 +1,11 @@
 <section class="container">
   <div class="title">
-    Alice's Vibe
+    {{ firstname }}'s Vibe
   </div>
 
   <div class="form-container">
     <form>
-      <mat-form-field class="input" [style.width.px]=500>
+      <mat-form-field class="input" [style.width.px]=500 appearance="standard">
         <fa-icon [icon]="faSearch" class="input-icon"></fa-icon>
         <input class="input-field" matInput placeholder="Choose tracks" name="first">
       </mat-form-field>
