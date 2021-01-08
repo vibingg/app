@@ -53,7 +53,9 @@ export class BobVibePageComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onContinue() {}
+  onContinue() {
+    this.router.navigate(['./selected-vibes']);
+  }
 
   numbClick() {
     this.setNumb = true;
