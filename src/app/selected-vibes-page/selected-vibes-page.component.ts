@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Track } from '../track.model';
 
 @Component({
   selector: 'app-selected-vibes-page',
@@ -6,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./selected-vibes-page.component.css']
 })
 export class SelectedVibesPageComponent implements OnInit {
+
+  selectedTracks: Track[] = [
+    
+  ];
 
   constructor() { }
 
