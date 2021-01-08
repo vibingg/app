@@ -1,0 +1,17 @@
+.track {
+  padding: 5px;
+}
+
+.album-art {
+  height: 60px;
+  width: 60px;;
+}
+
+#name {
+  font-size: 18px;
+}
+
+#artist {
+  font-size: 18px;
+  color: #605959;
+}
