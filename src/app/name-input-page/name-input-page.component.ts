@@ -28,7 +28,8 @@ export class NameInputPageComponent {
     }
   }
 
-  @ViewChild("nameinput") myInputField: ElementRef;
+  @ViewChild("nameinput")
+  myInputField!: ElementRef;
   ngAfterViewInit() {
     this.myInputField.nativeElement.focus();
   }
