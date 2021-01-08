@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { Router } from '@angular/router' //ii
 import { NameService } from '../services/name.service';
+import { Track } from '../track.model';
 
 @Component({
   selector: 'app-bob-vibe-page',
@@ -12,6 +13,10 @@ export class BobVibePageComponent implements OnInit {
   faSearch = faSearch;
 
   secondname: string | undefined;
+
+  bobTracks: Track[] = [
+
+  ];
 
   constructor(private router: Router, private nameService: NameService) {
     this.nameService.getSecondName().subscribe(data => {
