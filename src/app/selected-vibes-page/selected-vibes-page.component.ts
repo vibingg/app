@@ -9,7 +9,6 @@ import { Track } from '../track.model';
 export class SelectedVibesPageComponent implements OnInit {
 
   selectedTracks: Track[] = [
-
   ];
 
   constructor() { }
