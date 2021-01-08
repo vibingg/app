@@ -1,0 +1,26 @@
+.container {
+  position: fixed;
+  top: 35%;
+  left: 25%;
+}
+
+.question {
+  font-size: 30px;
+}
+
+.form-container {
+  font-size: 35px;
+}
+
+.input {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.submit-btn {
+  font-family: 'Abhaya Libre', serif;
+  font-size: 20px;
+  /* margin-top: 130px; */
+  /* margin-left: -5px; */
+  padding: 5px 20px;
+}
+
