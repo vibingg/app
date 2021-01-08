@@ -8,6 +8,7 @@ import { LandingComponent } from './auth/landing/landing.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { LoadingPageComponent } from './loading-page/loading-page.component';
+import { HttpClientModule } from '@angular/common/http';
 import { NameInputPageComponent } from './name-input-page/name-input-page.component';
 import { FormsModule } from '@angular/forms';
 import { NameFriendInputPageComponent } from './name-friend-input-page/name-friend-input-page.component';
@@ -33,6 +34,7 @@ import { ResultPageComponent } from './result-page/result-page.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    HttpClientModule,
     FormsModule,
     FontAwesomeModule
   ],
