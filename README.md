@@ -1,4 +1,5 @@
 # vibing.
+No idea what to play? Friends being picky about your playlists? Don't fret as vibing is here to help! Grab your friend and choose songs both of you are vibing with today and we'll settle the rest!
 
 ## Inspiration
 We are a group of friends that enjoy listening to music, and we like to share our new discoveries with one another. However, this doesn't always play well because we have different tastes. During a road trip with one of my friend, we we were arguing over which playlist to play. Then it hit us. How good would it be, to have a web application that takes in our likes and interests, then automatically generates a playlist for us which contains music that both of us likes?
@@ -25,3 +26,6 @@ vibing. intends to up our game by creating our own search and matching algorithm
 1. Angular 
 2. Express.js
 3. Node.js
+
+## View video demo
+https://youtu.be/GCKuNrIHQN0
