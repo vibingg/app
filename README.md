@@ -1,4 +1,4 @@
-Inspiration
+##Inspiration##
 We are a group of friends that enjoy listening to music, and we like to share our new discoveries with one another. However, this doesn't always play well because we have different tastes. During a road trip with one of my friend, we we were arguing over which playlist to play. Then it hit us. How good would it be, to have a web application that takes in our likes and interests, then automatically generates a playlist for us which contains music that both of us likes?
 
 What it does
