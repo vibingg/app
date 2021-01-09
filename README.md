@@ -1,37 +1,25 @@
-# app
-# Vibing
+Inspiration
+We are a group of friends that enjoy listening to music, and we like to share our new discoveries with one another. However, this doesn't always play well because we have different tastes. During a road trip with one of my friend, we we were arguing over which playlist to play. Then it hit us. How good would it be, to have a web application that takes in our likes and interests, then automatically generates a playlist for us which contains music that both of us likes?
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+What it does
+The web application we created will allow a user to log in and authenticate with Spotify. From there, we will also prompt the user and his friend to key in music they are vibing with on the day they are using the application. After selecting some of their music for the day, that's all! The app will generate a playlist using Spotify API for the user, and they can play all the music they like while hanging out together now!
 
-## Development server
+How we built it
+We used the Angular framework for our frontend, and Node.js (express) for our backend. We also incorporated a multitude of Spotify API in our code base.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Challenges we ran into
+Biggest challenge would probably be trying to handle the Spotify endpoints with our backend, and trying to incorporate them with the Angular framework. Our team members are beginners at these few tech stacks and we were trying to broaden our skillsets. We figured out halfway that angular actually has a steeper learning curve and less help support for it online. So it was rather challenging to figure out how to build a proper spotify api around it. Furthermore, it's also our first time creating a backend server by ourselves and we must say that it is especially difficult!
 
-## Backend server
-1. `cd server` into the backend folder.
-2. `npm install` to install req dependencies. (first-time only)
-3. `cd ..` to get back to main app folder. 
-4. npm install yarn -g to install yarn on your computer. 
-5. `yarn serve` to run backend and frontend concurrently - able to navigate to `http;//localhost:4200`
-6. Alternatively, you could run the backend and frontend on separate terminals. 
-7. `ng serve` in the app/ folder and `node server.ts` in the app/server/ folder.
+Accomplishments that we are proud of
+We're proud of the design scheme that we have come up with as it is very aesthetically-pleasing and minimalistic. We are also very proud of being able to create a backend server to be able to link the Spotify authentication page to our application. That caused a huge issue in the beginning as we were not able to get the access token initially. Overall, we are more than happy with our project and we hope to further improve it.
 
-## Code scaffolding
+What we learned
+We learnt a multitude of things! From setting up better git workflow, to the challenges of angular, as well as the limitations of spotify API. Personally, I enjoyed the process of learning how to set up a backend with express! It really warms our heart when we see a working endpoint that we created.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+What's next for vibing.
+vibing. intends to up our game by creating our own search and matching algorithm in the future via using a matrix of parameters and comparing cosine similarity! We would also look to including more friends into the playlist generation!
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Tech Stack
+1. Angular 
+2. Express.js
+3. Node.js
