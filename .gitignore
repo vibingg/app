@@ -42,7 +42,7 @@ yarn-error.log
 testem.log
 /typings
 server/.env
-
+server/node_modules
 
 # System Files
 .DS_Store
