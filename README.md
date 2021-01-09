@@ -1,5 +1,5 @@
 # vibing.
-Create a personalised playlist for you and your friends.
+Create a personalised playlist for you and your friends. <br/>
 No idea what to play? Friends being picky about your playlists? Don't fret as vibing is here to help! Grab your friend and choose songs both of you are vibing with today and we'll settle the rest!
 
 ## Inspiration
