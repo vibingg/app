@@ -25,5 +25,5 @@ vibing. intends to up our game by creating our own search and matching algorithm
 2. Express.js
 3. Node.js
 
-## View video demo
-
+## View video demo here:
+https://youtu.be/GCKuNrIHQN0
