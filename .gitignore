@@ -43,6 +43,8 @@ testem.log
 /typings
 server/.env
 server/node_modules
+node_modules/*
+.idea/
 
 # System Files
 .DS_Store
